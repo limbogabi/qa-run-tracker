@@ -22,7 +22,8 @@ type TestRun = {
   createdAt?: string;
 };
 
-const API_BASE = "http://localhost:3000";
+const API_BASE = "https://qa-run-tracker-backend.onrender.com";
+
 
 const TestRunsPage: React.FC = () => {
   const [runs, setRuns] = useState<TestRun[]>([]);
